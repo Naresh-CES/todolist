@@ -2,3 +2,8 @@
   font-family: sans-serif;
   text-align: center;
 }
+
+.card {
+  background-color: beige;
+  border: 1px saddlebrown solid;
+}
