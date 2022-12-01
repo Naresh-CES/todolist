@@ -13,7 +13,11 @@ const Todo = (props: any) => {
   // const map2 = new Map(Object.entries(props));
 
   console.log(props.data);
-  const todoData: EnumSer = props.data && props.data.slice(0, 10);
+  const todoData: EnumSer = props.data?.slice(0, 10);
+
+  console.log('====================================');
+  console.log(todoData);
+  console.log('====================================');
 
   return (
     <div className='card'>
